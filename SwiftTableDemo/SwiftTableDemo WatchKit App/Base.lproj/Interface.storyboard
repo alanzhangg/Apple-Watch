@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SwiftTableDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button alignment="center" verticalAlignment="center" id="GIc-Wt-O9h">
+                            <group key="contentGroup" width="1" alignment="left" layout="vertical" id="arI-Ba-YYi">
+                                <items>
+                                    <imageView width="102" height="107" alignment="center" image="eko0" id="6dy-W7-U4T"/>
+                                    <label alignment="center" text="Apple Watch" id="Lap-qm-Kgh"/>
+                                </items>
+                            </group>
+                            <connections>
+                                <segue destination="o8x-mq-Piu" kind="push" id="Z7L-gB-ITH"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="202" y="324"/>
+        </scene>
+        <!--List Controller-->
+        <scene sceneID="aA3-tM-flf">
+            <objects>
+                <controller id="o8x-mq-Piu" customClass="ListController" customModule="SwiftTableDemo_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="40C-iu-2er">
+                            <items>
+                                <tableRow identifier="rowCell" id="7BV-zX-r9h" customClass="RowCell" customModule="SwiftTableDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="Fkt-vo-bEq">
+                                        <items>
+                                            <label alignment="left" text="Label" id="JKF-yZ-sX3"/>
+                                            <label alignment="left" text="Label" id="ZYz-Z8-eja">
+                                                <color key="textColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                        <connections>
+                                            <segue destination="SxY-bm-2jF" kind="push" id="vgB-km-e8e"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="projectName" destination="JKF-yZ-sX3" id="7aB-b4-YGK"/>
+                                        <outlet property="teacherName" destination="ZYz-Z8-eja" id="i10-gM-lIG"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="laTable" destination="40C-iu-2er" id="kHM-XM-t7L"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="427" y="324"/>
+        </scene>
+        <!--Detail Interface Controller-->
+        <scene sceneID="hmY-Md-0io">
+            <objects>
+                <controller id="SxY-bm-2jF" customClass="DetailInterfaceController" customModule="SwiftTableDemo_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Label" id="0Gs-Or-bnf"/>
+                    </items>
+                    <connections>
+                        <outlet property="lab" destination="0Gs-Or-bnf" id="DQq-Dh-Ym8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="653" y="324"/>
+        </scene>
+    </scenes>
+</document>

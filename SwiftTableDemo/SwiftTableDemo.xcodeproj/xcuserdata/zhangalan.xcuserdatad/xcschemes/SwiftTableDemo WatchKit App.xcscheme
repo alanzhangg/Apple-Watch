@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D01E172F1AE29E6500711D2C"
+               BuildableName = "SwiftTableDemo WatchKit App.app"
+               BlueprintName = "SwiftTableDemo WatchKit App"
+               ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D01E16FC1AE29E3800711D2C"
+               BuildableName = "SwiftTableDemo.app"
+               BlueprintName = "SwiftTableDemo"
+               ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D01E17251AE29E6500711D2C"
+               BuildableName = "SwiftTableDemo WatchKit Extension.appex"
+               BlueprintName = "SwiftTableDemo WatchKit Extension"
+               ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D01E172F1AE29E6500711D2C"
+            BuildableName = "SwiftTableDemo WatchKit App.app"
+            BlueprintName = "SwiftTableDemo WatchKit App"
+            ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SwiftTableDemo">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D01E172F1AE29E6500711D2C"
+            BuildableName = "SwiftTableDemo WatchKit App.app"
+            BlueprintName = "SwiftTableDemo WatchKit App"
+            ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D01E172F1AE29E6500711D2C"
+            BuildableName = "SwiftTableDemo WatchKit App.app"
+            BlueprintName = "SwiftTableDemo WatchKit App"
+            ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SwiftTableDemo">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D01E172F1AE29E6500711D2C"
+            BuildableName = "SwiftTableDemo WatchKit App.app"
+            BlueprintName = "SwiftTableDemo WatchKit App"
+            ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D01E172F1AE29E6500711D2C"
+            BuildableName = "SwiftTableDemo WatchKit App.app"
+            BlueprintName = "SwiftTableDemo WatchKit App"
+            ReferencedContainer = "container:SwiftTableDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
